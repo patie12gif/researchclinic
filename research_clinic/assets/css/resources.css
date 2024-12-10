@@ -1,0 +1,133 @@
+
+.resources {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.resources h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.blog-post {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-basis: 45%;
+    text-align: left;
+}
+
+.blog-post h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.blog-post p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.read-more-btn {
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.read-more-btn:hover {
+    background-color: #0056b3;
+}
+
+.blog-resources-page {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+}
+
+.blog-title {
+    font-size: 3rem;
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.blog-description {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+ 
+.section-title {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+ 
+.blog-grid, .resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 30px;
+    padding: 0 20px;
+    justify-items: center;  
+}
+
+ 
+.blog-card, .resource-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;  
+    max-width: 350px;  
+}
+
+.blog-card:hover, .resource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+ 
+.blog-post-title, .resource-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.blog-post-excerpt, .resource-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+ 
+.blog-link, .resource-link {
+    font-size: 1.1rem;
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.blog-link:hover, .resource-link:hover {
+    color: #0097a7;
+}
+

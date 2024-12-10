@@ -1,0 +1,101 @@
+/* Styling the auth-container */
+.auth-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.auth-container h1 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.btn:hover {
+    background-color: #0056b3;
+}
+
+
+p {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .auth-container {
+        padding: 30px;
+        margin-top: 10%;
+    }
+
+    .auth-container h1 {
+        font-size: 1.8rem;
+    }
+
+    button.btn {
+        padding: 14px;
+        font-size: 1rem;
+    }
+}
